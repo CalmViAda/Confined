@@ -30,4 +30,5 @@
     <string name="detail_text_description">detail_text_Description</string>
     <string name="details_text_description">TextView</string>
     <string name="search_hint">Type name…</string>
+    <string name="precautiontips">precautiontips</string>
 </resources>

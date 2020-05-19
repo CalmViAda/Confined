@@ -21,40 +21,48 @@ public class Bored implements Serializable {
     @SerializedName("key")
     private Integer key;
 
-   public Bored(String activity, Float accessibility, String type, Integer participants,
-                 Float price, String link, Integer key){
-        this.activity=activity;
-        this.accessibility=accessibility;
-        this.type=type;
-        this.participants=participants;
-        this.price=price;
-        this.link=link;
-        this.key=key;
+
+    public Bored(String activity, Float accessibility, String type, Integer participants,
+                 Float price, String link, Integer key) {
+        this.activity = activity;
+        this.accessibility = accessibility;
+        this.type = type;
+        this.participants = participants;
+        this.price = price;
+        this.link = link;
+        this.key = key;
     }
+
 
     public String getActivity() {
         return activity;
     }
 
+
     public Float getAccessibility() {
         return accessibility;
     }
+
 
     public String getType() {
         return type;
     }
 
+
     public Integer getParticipants() {
         return participants;
     }
+
 
     public Float getPrice() {
         return price;
     }
 
+
     public String getLink() {
         return link;
     }
+
 
     public Integer getKey() {
         return key;

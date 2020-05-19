@@ -19,17 +19,11 @@ import java.util.List;
 
 public class FightBoreActivity extends AppCompatActivity {
     Toolbar toolbarm;
-    List<Bored> boredL;
-    private RecyclerView recyclerView;
-    //private ListAdapterBored mAdapter;
-    private RecyclerView.LayoutManager layoutManager;
     FightBoreController controller;
 
     TextView firstline;
     TextView secondline;
     ImageView iconBor;
-
-    static final String BASE_URL = "https://www.boredapi.com/";
 
 
     @Override
@@ -41,7 +35,7 @@ public class FightBoreActivity extends AppCompatActivity {
         firstline = findViewById(R.id.firstline);
         secondline=findViewById(R.id.secondline);
 
-        iconBor = (ImageView) findViewById(R.id.iconBored);
+        iconBor = findViewById(R.id.iconBored);
         setSupportActionBar(toolbarm);
         controller = new FightBoreController(
                 this);
